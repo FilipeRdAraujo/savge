@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@300&display=swap');
+
+:root {
+    --primary-color: #e8e8e8;
+    --secondary-color: #14274e;
+    --nav-link-color: #03c4a1;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-color: var(--primary-color);
+}
+
+h2{
+    color: var(--secondary-color);
+}
+
+.headerImg {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#eb01a500 79%, var(--primary-color) 99%), url(../pexels-matheus-bertelli.jpg);
+    background-position: center top;
+    background-size: cover;
+    background: -o-linear-gradient(#fff, #000);
+}
+
+#nav {
+    z-index: 2020;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.bg_scroll_color {
+    background-color: var(--secondary-color);
+}
+
+/* #nav .navMenu {
+    float: right;
+    cursor: pointer;
+    color: whitesmoke;
+} */
+
+#nav .logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+#nav .navContent {
+    float: right;
+}
+
+#nav a {
+    font-weight: bold;
+    color: #f8f9fa;
+    padding: 20px;
+}
+
+#nav a.router-link-exact-active {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    color: var(--nav-link-color);
+}
+
+#menu-mobile {
+    display: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#savgeSidebar {
+    text-align: initial;
+}
+
+#header-title {
+    margin-top: 18em;
+}
+
+#footer {
+    background-color: var(--secondary-color);
+}
+#footer a{
+    color: var(--nav-link-color);
+}
+
+#footer-siganos {
+    float: right;
+}
+
+#bottom-navbar a {
+    color: #f8f9fa;
+}
+
+#bottom-navbar a.router-link-exact-active {
+    color: var(--nav-link-color);
+}
+
+.mt-10 {
+    margin-top: 7rem;
+}
+
+.link-s a {
+    text-decoration: none;
+}
+.shadow-border{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.096);
+    border-radius: 5px;
+}
+
+.brad-5 {
+    border-radius: 5px;
+}
+
+/* Animações */
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navContent {
+        display: none;
+    }
+
+    .pc-options {
+        display: none;
+    }
+    .cards-size{
+        max-width: 100% !important;
+    }
+
+    .img-area {
+        display: none;
+    }
+
+    #menu-mobile {
+        display: unset;
+    }
+
+    #nav .logo {
+        padding-left: 0rem;
+    }
+
+    #footer-siganos {
+        float: none;
+    }
+}
