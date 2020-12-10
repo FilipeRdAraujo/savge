@@ -32,7 +32,7 @@
             :center="local.geometry.location"
             :zoom="16"
             class="shadow-border"
-            style="height: 100vh"
+            style="height: 90vh"
           >
             <gmap-marker :position="local.geometry.location"></gmap-marker>
           </gmap-map>

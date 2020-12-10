@@ -22,20 +22,18 @@
       <div class="col-md">
         <p id="footer-siganos">
           <small class="follow-text">SIGA-NOS NAS REDES SOCIAIS: </small>
-          <label>
-            <a title="Instagram" href="#"
-              ><i style="padding: 5px" class="fab fa-instagram"></i
-            ></a>
-            <a title="Facebook" href=""
-              ><i style="padding: 5px" class="fab fa-facebook-square"></i
-            ></a>
-            <a title="Linkedin" href=""
-              ><i style="padding: 5px" class="fab fa-linkedin"></i
-            ></a>
-            <a title="Twitter" href=""
-              ><i style="padding: 5px" class="fab fa-twitter-square"></i
-            ></a>
-          </label>
+          <a title="Instagram" href="#"
+            ><i style="padding: 5px" class="fab fa-instagram"></i
+          ></a>
+          <a title="Facebook" href=""
+            ><i style="padding: 5px" class="fab fa-facebook-square"></i
+          ></a>
+          <a title="Linkedin" href=""
+            ><i style="padding: 5px" class="fab fa-linkedin"></i
+          ></a>
+          <a title="Twitter" href=""
+            ><i style="padding: 5px" class="fab fa-twitter-square"></i
+          ></a>
         </p>
       </div>
     </div>
@@ -48,7 +46,7 @@
 
 <script>
 export default {
-    name: 'Footer',
+  name: "Footer",
 };
 </script>
 

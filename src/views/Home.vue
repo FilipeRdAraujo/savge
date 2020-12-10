@@ -18,7 +18,7 @@
         </b-col>
         <b-col class="p-5 img-area">
           <img class="brad-5" src="../assets/museum_of_tomorrow_Andres_Otero.jpg" width="100%" title="Museu do Amanhã - Centro, Rj" alt="Museu do Amanhã">
-          <small class="link-s"><a href="https://www.colorkinetics.com/global/showcase/museum-of-tomorrow" title="Foto tirada por Andrés Otero" class="text-dark">Foto tirada por Andrés Otero</a></small>
+          <small class="link-s"><a href="https://www.colorkinetics.com/global/showcase/museum-of-tomorrow" title="Ver foto original" class="text-dark">Foto tirada por Andrés Otero</a></small>
         </b-col>
       </b-row>
       <b-row class="mt-10">
