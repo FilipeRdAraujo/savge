@@ -21,7 +21,7 @@
           <!-- <p>detalhada do local em questão ocorre por meio de um mapa onde, é possível ~~Continuar isso aqui~~</p> -->
         </b-col>
       </b-row>
-      <b-row class="mt-10">
+      <b-row class="mt-10 mb-5">
         <b-col md>
           <h2>Outras formas de contato:</h2>
           <p>

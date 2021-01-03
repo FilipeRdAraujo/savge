@@ -10,7 +10,7 @@
       </b-row>
     </b-container>
     <b-container>
-      <b-row>
+      <b-row class="mb-5">
         <b-col md="3"></b-col>
         <b-col md class="p-3">
           <b-nav pills align="right">
@@ -53,7 +53,7 @@
           >
         </b-col>
       </b-row>
-      <b-row>
+      <b-row class="mb-5">
         <b-col md="3">
           <h2>Categorias - {{ caminho }}</h2>
           <b-button-group style="width: 100%" vertical>
@@ -101,7 +101,7 @@
               v-for="(place, i) in lugaresEncontrados"
               :key="i"
               :title="place.name"
-              img-src="https://cdn.discordapp.com/attachments/418417396953382924/783430789948768326/unknown.png"
+              img-src="../assets/VectorBuildings.jpg"
               style="
                 cursor: pointer;
                 user-select: none;
